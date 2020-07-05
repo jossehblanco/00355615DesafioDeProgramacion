@@ -1,0 +1,8 @@
+Se ha provisto un zip que contiene dos archvios (exe y jar) y un folder.
+
+Por favor, tomar en cuenta al extraer:
+
+-Los archivos javafx-sdk-11.0.2 y SimuJFX.jar son REQUERIDOS para que el .exe funcione y tienen que estar
+en el mismo directorio que 00355615.exe.
+
+-La razon es que el packager fue removido del SDK de JavafX y hay que ejecutar unos comandos adicionales para que funcione.

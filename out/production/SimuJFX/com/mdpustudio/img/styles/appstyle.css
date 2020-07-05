@@ -1,0 +1,60 @@
+.button{
+    -fx-border-radius: 4;
+-fx-padding: 16;
+-fx-min-width: 36;
+-fx-pref-height: 24;
+-fx-text-alignment: center;
+-fx-background-color: #3d5afe;
+-fx-text-fill: white;
+}
+.button:hover{
+    -fx-background-color: #0031ca;
+}
+
+.button:pressed{
+    -fx-background-color: #8187ff;
+}
+
+.buttonSlide{
+
+    -fx-border-radius: 4;
+    -fx-padding: 6;
+    -fx-min-width: 2;
+    -fx-max-height: 2;
+    -fx-text-alignment: center;
+    -fx-background-color: #3d5afe;
+    -fx-text-fill: white;
+
+}
+.button:disabled{
+    -fx-background-color: #fff;
+    -fx-text-fill: rgba(6,3,3,0.34);
+}
+
+.labelHeader{
+    -fx-background-color: #3d5afe;
+    -fx-text-fill: white;
+    -fx-min-width: 910;
+    -fx-min-height: 60;
+    -fx-max-height: 60;
+    -fx-text-alignment: center;
+}
+
+.buttonExit{
+    -fx-background-color: #f44336;
+}
+
+.buttonExit:hover{
+    -fx-background-color: #d32f2f;
+
+}
+
+.buttonExit:pressed{
+
+    -fx-background-color: #ef5350;
+}
+
+.buttonMenu{
+    -fx-min-width: 180;
+    -fx-max-width: 180;
+}
